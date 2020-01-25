@@ -6,7 +6,11 @@ Install packages from this repository like so (example for the `pragr` package):
 install.packages("pragr", repos = "https://petrbouchal.github.io/drat/")
 ```
 
-This may be preferable to using `remotes::install_github("petrbouchal/pragr")` since you always get a release, rather than the latest snapshot, which may be broken.
+This may be preferable to using `remotes::install_github("petrbouchal/pragr")` since you
+
+- always get a release, rather than the latest snapshot, which may be broken.
+- get a binary package if available
+- get a package with the vignettes built by default
 
 If you'd like to add this repository to the list of places where R looks for packages, run
 
