@@ -31,7 +31,7 @@ Currently the repository contains the following packages:
 
 Source code for all the packages is hosted on [github](https://github.com/petrbouchal).
 
-The repository has been created using the `drat` package by @edelbuettel; see more at <http://dirk.eddelbuettel.com/code/drat.html>
+The repository has been created using the `drat` package by @eddelbuettel; see more at <http://dirk.eddelbuettel.com/code/drat.html>
 
 More on
 
