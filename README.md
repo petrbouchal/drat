@@ -6,6 +6,15 @@ Install packages from this repository like so (example for the `pragr` package):
 install.packages("pragr", repos = "https://petrbouchal.github.io/drat/")
 ```
 
+Or, to set this permanently and without the `drat` dependency, put this in your .Rprofile:
+
+```r
+local({r <- getOption("repos")
+# add drat repo
+r["petrbouchal"] <- "petrbouchal.github.io/drat"
+options(repos=r)})
+```
+
 This may be preferable to using `remotes::install_github("petrbouchal/pragr")` since you
 
 - always get a release, rather than the latest snapshot, which may be broken.
