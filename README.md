@@ -36,6 +36,8 @@ Currently the repository contains the following packages:
 - [statnipokladna](https://github.com/petrbouchal/statnipokladna) for Czech public finance data
 - [ptrr](https://github.com/petrbouchal/ptrr), a collection of personal utilities
 
+You can run `available.packages(repos = 'https://petrbouchal.github.io/drat')` to see what is included.
+
 Source code for all the packages is hosted on [Github](https://github.com/petrbouchal).
 
 The repository has been created using the `drat` package by @eddelbuettel; see more at <http://dirk.eddelbuettel.com/code/drat.html>
