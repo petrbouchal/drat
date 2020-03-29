@@ -1,9 +1,8 @@
 Package: czso
 Version: 0.2.1
-Imports: dplyr (>= 0.8.3), httr (>= 1.4.1), jsonlite (>= 1.6),
-        lifecycle, magrittr, readr (>= 1.3.1), stringi (>= 1.4.4),
-        stringr (>= 1.4.0), tibble (>= 2.1.3), tools (>= 3.6.0),
-        usethis (>= 1.5.1), utils (>= 3.6.0), vroom (>= 1.0.2)
+Imports: dplyr (>= 0.8.3), httr (>= 1.4.1), jsonlite (>= 1.6), lifecycle, magrittr, readr (>=
+          1.3.1), stringi (>= 1.4.4), stringr (>= 1.4.0), tibble (>= 2.1.3), tools (>= 3.6.0),
+          usethis (>= 1.5.1), utils (>= 3.6.0), vroom (>= 1.0.2)
 License: MIT + file LICENSE
 MD5sum: 1580a958e606515c16262c8613d9811a
 NeedsCompilation: no
@@ -11,13 +10,11 @@ NeedsCompilation: no
 Package: pragr
 Version: 0.2.0
 Depends: R (>= 3.5)
-Imports: CzechData (>= 0.2.2), abind (>= 1.4.5), curl (>= 4.0), dplyr
-        (>= 0.8.3), ggplot2 (>= 3.2.0), grDevices (>= 3.6.0), grid (>=
-        3.6.0), here (>= 0.1), httr (>= 1.4.0), jpeg (>= 0.1.8),
-        jsonlite (>= 1.6), lubridate (>= 1.7.4), magrittr (>= 1.5), png
-        (>= 0.1.7), purrr (>= 0.3.2), rlang (>= 0.4.1), sf (>= 0.7.7),
-        stringr (>= 1.4.0), tibble (>= 2.1.3), tidyr (>= 0.8.3),
-        usethis (>= 1.5.1), utils (>= 3.6.0)
+Imports: CzechData (>= 0.2.2), abind (>= 1.4.5), curl (>= 4.0), dplyr (>= 0.8.3), ggplot2 (>=
+          3.2.0), grDevices (>= 3.6.0), grid (>= 3.6.0), here (>= 0.1), httr (>= 1.4.0), jpeg
+          (>= 0.1.8), jsonlite (>= 1.6), lubridate (>= 1.7.4), magrittr (>= 1.5), png (>=
+          0.1.7), purrr (>= 0.3.2), rlang (>= 0.4.1), sf (>= 0.7.7), stringr (>= 1.4.0), tibble
+          (>= 2.1.3), tidyr (>= 0.8.3), usethis (>= 1.5.1), utils (>= 3.6.0)
 Suggests: ggsn, knitr, pkgdown, ragg, rmarkdown
 License: MIT + file LICENSE
 MD5sum: 848c416e27bcda6960cb15d474aa051a
@@ -25,22 +22,20 @@ NeedsCompilation: no
 
 Package: ptrr
 Version: 0.0.0.9000
-Imports: showtext, sysfonts, ggplot2, scales (>= 1.1.0), ggtext (>=
-        0.1.0), drat (>= 0.1.5), git2r (>= 0.26.1), pkgbuild (>=
-        1.0.6), rhub (>= 1.1.1), callr (>= 3.4.2)
+Imports: showtext, sysfonts, ggplot2, scales (>= 1.1.0), ggtext (>= 0.1.0), drat (>= 0.1.5),
+          git2r (>= 0.26.1), pkgbuild (>= 1.0.6), rhub (>= 1.1.1), callr (>= 3.4.2)
 License: MIT + file LICENSE
 MD5sum: f7046cf84cb87d492a0b215b18673e4b
 NeedsCompilation: no
 
 Package: statnipokladna
-Version: 0.5.2
+Version: 0.5.3
 Depends: R (>= 3.5.0)
-Imports: dplyr (>= 0.8.3), httr (>= 1.4.1), jsonlite, lifecycle,
-        lubridate (>= 1.7.4), magrittr, purrr (>= 0.3.2), readr (>=
-        1.3.1), rlang (>= 0.4.0), stringi (>= 1.4.3), stringr (>=
-        1.4.0), tibble (>= 2.1.3), tidyr (>= 1.0.0), usethis (>=
-        1.5.1), utils (>= 3.6.0), xml2 (>= 1.2.2)
+Imports: curl (>= 4.3), dplyr (>= 0.8.3), httr (>= 1.4.1), jsonlite, lifecycle, lubridate (>=
+          1.7.4), magrittr, purrr (>= 0.3.2), readr (>= 1.3.1), rlang (>= 0.4.0), stringi (>=
+          1.4.3), stringr (>= 1.4.0), tibble (>= 2.1.3), tidyr (>= 1.0.0), usethis (>= 1.5.1),
+          utils (>= 3.6.0), xml2 (>= 1.2.2)
 Suggests: knitr, rmarkdown, testthat (>= 2.1.0)
 License: MIT + file LICENSE
-MD5sum: 6cc75bdbdb81146b23f8f363bcf76635
+MD5sum: 2f5c1d6c02689eff3e68d41b2415170b
 NeedsCompilation: no
