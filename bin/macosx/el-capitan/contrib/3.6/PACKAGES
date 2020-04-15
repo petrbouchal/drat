@@ -1,49 +1,52 @@
 Package: czso
 Version: 0.2.2
 Imports: curl (>= 4.3), dplyr (>= 0.8.3), httr (>= 1.4.1), jsonlite (>= 1.6), lifecycle,
-          magrittr, readr (>= 1.3.1), rlang (>= 0.4.4), stringi (>= 1.4.4), stringr (>= 1.4.0),
-          tibble (>= 2.1.3), tools (>= 3.6.0), usethis (>= 1.5.1), utils (>= 3.6.0)
+          magrittr, readr (>= 1.3.1), rlang (>= 0.4.4), stringi (>= 1.4.4), stringr (>=
+          1.4.0), tibble (>= 2.1.3), tools (>= 3.6.0), usethis (>= 1.5.1), utils (>=
+          3.6.0)
 License: MIT + file LICENSE
 MD5sum: 70ef6ed43e6b739898de91c5e444d5f4
 
 Package: pragr
 Version: 0.2.0
 Depends: R (>= 3.5)
-Imports: CzechData (>= 0.2.2), abind (>= 1.4.5), curl (>= 4.0), dplyr (>= 0.8.3), ggplot2 (>=
-          3.2.0), grDevices (>= 3.6.0), grid (>= 3.6.0), here (>= 0.1), httr (>= 1.4.0), jpeg
-          (>= 0.1.8), jsonlite (>= 1.6), lubridate (>= 1.7.4), magrittr (>= 1.5), png (>=
-          0.1.7), purrr (>= 0.3.2), rlang (>= 0.4.1), sf (>= 0.7.7), stringr (>= 1.4.0), tibble
-          (>= 2.1.3), tidyr (>= 0.8.3), usethis (>= 1.5.1), utils (>= 3.6.0)
+Imports: CzechData (>= 0.2.2), abind (>= 1.4.5), curl (>= 4.0), dplyr (>= 0.8.3), ggplot2
+          (>= 3.2.0), grDevices (>= 3.6.0), grid (>= 3.6.0), here (>= 0.1), httr (>=
+          1.4.0), jpeg (>= 0.1.8), jsonlite (>= 1.6), lubridate (>= 1.7.4), magrittr (>=
+          1.5), png (>= 0.1.7), purrr (>= 0.3.2), rlang (>= 0.4.1), sf (>= 0.7.7), stringr
+          (>= 1.4.0), tibble (>= 2.1.3), tidyr (>= 0.8.3), usethis (>= 1.5.1), utils (>=
+          3.6.0)
 Suggests: ggsn, knitr, pkgdown, ragg, rmarkdown
 License: MIT + file LICENSE
 MD5sum: aac10af05b3d5daa543bcb251e66808f
 
 Package: ptrr
 Version: 0.0.0.9000
-Imports: showtext, sysfonts, ggplot2, scales (>= 1.1.0), ggtext (>= 0.1.0), drat (>= 0.1.5),
-          git2r (>= 0.26.1), pkgbuild (>= 1.0.6), rhub (>= 1.1.1), callr (>= 3.4.2)
+Imports: showtext, sysfonts, ggplot2, scales (>= 1.1.0), ggtext (>= 0.1.0), drat (>=
+          0.1.5), git2r (>= 0.26.1), pkgbuild (>= 1.0.6), rhub (>= 1.1.1), callr (>=
+          3.4.2)
 License: MIT + file LICENSE
 MD5sum: 516f0147292c773127be609ab7b8a9da
 
 Package: reschola
 Version: 0.2.9
-Imports: bookdown (>= 0.15), dplyr (>= 0.8.4), extrafont (>= 0.17), forcats (>= 0.4.0), fs (>=
-          1.3.2), ggplot2 (>= 3.3.0), googledrive (>= 1.0.0), haven (>= 2.2.0), hrbrthemes (>=
-          0.6.0), magrittr, officer (>= 0.3.8), png (>= 0.1.7), purrr (>= 0.3.3), readxl (>=
-          1.3.1), redoc (>= 0.1.0.9000), rmarkdown (>= 2.1), rstudioapi, sessioninfo (>=
-          1.1.1), stringr (>= 1.4.0), tibble (>= 2.1.3), tidyr (>= 1.0.0), usethis (>= 1.5.1),
-          writexl (>= 1.1)
+Imports: bookdown (>= 0.15), dplyr (>= 0.8.4), extrafont (>= 0.17), forcats (>= 0.4.0), fs
+          (>= 1.3.2), ggplot2 (>= 3.3.0), googledrive (>= 1.0.0), haven (>= 2.2.0),
+          hrbrthemes (>= 0.6.0), magrittr, officer (>= 0.3.8), png (>= 0.1.7), purrr (>=
+          0.3.3), readxl (>= 1.3.1), redoc (>= 0.1.0.9000), rmarkdown (>= 2.1),
+          rstudioapi, sessioninfo (>= 1.1.1), stringr (>= 1.4.0), tibble (>= 2.1.3), tidyr
+          (>= 1.0.0), usethis (>= 1.5.1), writexl (>= 1.1)
 Suggests: knitr
 License: MIT + file LICENSE
 MD5sum: c1fb13cef0c9976495591340012577c7
 
 Package: statnipokladna
-Version: 0.5.5
+Version: 0.5.7
 Depends: R (>= 3.5.0)
-Imports: curl (>= 4.3), dplyr (>= 0.8.3), httr (>= 1.4.1), jsonlite, lifecycle, lubridate (>=
-          1.7.4), magrittr, purrr (>= 0.3.2), readr (>= 1.3.1), rlang (>= 0.4.0), stringi (>=
-          1.4.3), stringr (>= 1.4.0), tibble (>= 2.1.3), tidyr (>= 1.0.0), usethis (>= 1.5.1),
-          utils (>= 3.6.0), xml2 (>= 1.2.2)
+Imports: curl (>= 4.3), dplyr (>= 0.8.3), httr (>= 1.4.1), jsonlite, lifecycle, lubridate
+          (>= 1.7.4), magrittr, purrr (>= 0.3.2), readr (>= 1.3.1), rlang (>= 0.4.0),
+          stringi (>= 1.4.3), stringr (>= 1.4.0), tibble (>= 2.1.3), tidyr (>= 1.0.0),
+          usethis (>= 1.5.1), utils (>= 3.6.0), xml2 (>= 1.2.2)
 Suggests: knitr, rmarkdown, testthat (>= 2.1.0)
 License: MIT + file LICENSE
-MD5sum: 112bbf9ae98863862ea4bff62eedec85
+MD5sum: 8ea2cb9d896c7692ebfb51e6bc013a36
