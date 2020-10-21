@@ -1,9 +1,9 @@
-## Repository of R packages by [Petr Bouchal](https://petrbouchal.github.io)
+## Repository of R packages by [Petr Bouchal](https://petrbouchal.xyz)
 
 Install packages from this repository like so (example for the `pragr` package):
 
 ``` r 
-install.packages("pragr", repos = "https://petrbouchal.github.io/drat/")
+install.packages("pragr", repos = "https://petrbouchal.xyz/drat/")
 ```
 
 Or, to gain more direct access to this package repository, put this in your .Rprofile:
@@ -11,7 +11,7 @@ Or, to gain more direct access to this package repository, put this in your .Rpr
 ```r
 local({r <- getOption("repos")
 # add drat repo
-r["petrbouchal"] <- "petrbouchal.github.io/drat"
+r["petrbouchal"] <- "petrbouchal.xyz/drat"
 options(repos=r)})
 ```
 
@@ -36,7 +36,7 @@ Currently the repository contains the following packages:
 - [statnipokladna](https://github.com/petrbouchal/statnipokladna) for Czech public finance data
 - [ptrr](https://github.com/petrbouchal/ptrr), a collection of personal utilities
 
-You can run `available.packages(repos = 'https://petrbouchal.github.io/drat')` to see what is included.
+You can run `available.packages(repos = 'https://petrbouchal.xyz/drat')` to see what is included.
 
 Source code for all the packages is hosted on [Github](https://github.com/petrbouchal).
 
